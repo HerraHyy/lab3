@@ -53,6 +53,3 @@ const orders = [
 const ordersJSON = JSON.stringify(orders);
 console.log(ordersJSON); 
 // Outputs: [{"orderID":1,"product":"Widget","quantity":5},{"orderID":2,"product":"Gadget","quantity":3}]
-
-// JSON.stringify() converts a JavaScript object into a JSON string.
-// JSON.parse() converts a JSON string into a JavaScript object.
